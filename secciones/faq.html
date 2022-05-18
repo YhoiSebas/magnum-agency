@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnum Agency</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body class="container-fluid">
+    <!--#######################################################-->
+    <!--HEADER-->
+    <header class="row">
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../multimedia/logo-header.png" id="Logo-header" alt="" width="210">
+                </a>
+                <button id="hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="quies-somos.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="emisores.html">Emisores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="descarga-app.html">Descarga la APP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--#######################################################-->
+    <!--MAIN-->
+    <main class="container my-5" id="main-faq">
+        <div class="row">
+            <div class="h1 text-white ">
+                <h1>Preguntas frecuentes</h1> <hr>
+            </div>
+            <div class="accordion accordion-flush rounded-3" id="accordionFlushExample">
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                            aria-expanded="false" aria-controls="flush-collapseOne">
+                            ¿Qué requisitos debo cumplir para ser emisor oficial?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">Ser mayor de edad, buen Internet, buena iluminación,
+                            celular con capacidad de hacer transmisiones en vivo, vivir o ser latinoamericano.</div>
+                    </div>
+                </div>
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                            ¿Cómo es el método de pago? </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">Recibes tu pago en forma de monedas dentro de la app,
+                            de ahí tienes dos formas de retirar tu dinero, a través de las plataformas paypal o
+                            Payoneer.</div>
+                    </div>
+                </div>
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                            aria-expanded="false" aria-controls="flush-collapseThree">
+                            Si no hago meta, ¿me pagan algo?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">El pago lo recibes de acuerdo a la meta que hagas en
+                            el mes. En caso de no llegar a la meta, únicamente cobrarás las monedas que hayas
+                            recolectado hasta el momento en tu monedero (cada 210 monedas es 1$).</div>
+                    </div>
+                </div>
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                            aria-expanded="false" aria-controls="flush-collapseFour">
+                            ¿En qué fecha realizan los pagos?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">Del 15 al 20 del próximo mes a tu meta.</div>
+                    </div>
+                </div>
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                            aria-expanded="false" aria-controls="flush-collapseFive">
+                            ¿las metas son acumulables?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">No, las metas se reinician todos los 1ero de cada mes.
+                            Las monedas que hagas en un mes no son acumulables para la meta del próximo mes.</div>
+                    </div>
+                </div>
+                <div class="accordion-item rounded-3 m-1 px-2" style="background-color:rgba(0,0,0,0.5);">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed text-white" style="background-color:rgba(0,0,0,0.5);"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                            aria-expanded="false" aria-controls="flush-collapseSix">
+                            ¿Qué tipo contenido hay en UPLIVE?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-white h5">Canto, baile, make up, dibujo. No se permite contenido
+                            sexual ni violento.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="h4 text-white m-4 row text-center">
+                <p class="col-md-5 m-0 text-center">¿Tienes alguna duda?</p>
+                <a class="col-md-2 text-center btn text-white" style="background-color: rgba(0,0,0,0.5);" target="_blank" href="https://api.whatsapp.com/send/?phone=5491133253198&text=Hola%2C+me+comunico+desde+instagram%2C+quisiera+m%C3%A1s+informaci%C3%B3n+para+ingresar+a+la+agencia.&app_absent=0">Comunicate a <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>    
+    </main>
+    <!--#######################################################-->
+    <!--FOOTER-->
+    <footer class="row my-3 ">
+        <div class="container">
+            <nav class="row">
+                <a href="../index.html" class="col-md-4 text-reset text-uppercase d-flex align-items-center"><img id="logo-footer"
+                        src="../multimedia/logo-header.png" alt=""></a>
+                <ul class="col-md-4 list-unstyled text-white">
+                    <li class="font-weight-bold text-uppercase">CONTACTANOS</li>
+                    <li>Correo: Magnumagencyy@gmail.com</li>
+                    <li>Telefono: +54 9 11 3325-3198</li>
+
+                </ul>
+                <ul class="col-md-4 list-unstyled d-flex align-items-center">
+                    <li class="font-weight-bold text-uppercase text-white">SIGUENOS: </li>
+                    <li class="mx-3">
+                        <a target="_blank" href="http://instagram.com/magnum.agencyy"><img id="red-social"
+                                src="../multimedia/icono-ig.png" alt=""></a>
+                        <a target="_blank" href="http://tiktok.com/@magnumagency"><img id="red-social"
+                                src="../multimedia/icono-tiktok.png" alt=""></a>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=5491133253198&text=Hola%2C+me+comunico+desde+instagram%2C+quisiera+m%C3%A1s+informaci%C3%B3n+para+ingresar+a+la+agencia.&app_absent=0"><img
+                                id="red-social" src="../multimedia/icono-wps.png" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!--#######################################-->
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

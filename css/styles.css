@@ -1,0 +1,42 @@
+body {
+    background-image: url(../multimedia/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px
+}
+
+#offcanvasNavbar {
+    background-color: rgba(26, 21, 21, 0.699);
+    color: antiquewhite;
+}
+
+.carousel slide carousel-fade {
+    height: 300px;
+}
+
+header {
+    height: 100px;
+}
+
+#main-faq {
+    height: 100vp;
+}
+#uplive-logo {
+    width: 250px;
+}
+footer {
+    background-color: rgba(0,0,0,0.5);
+}
+#logo-footer{
+    width: -webkit-fill-available;
+}
+#red-social {
+    width: 10%;
+}
+.card {
+    background-color: none;
+}
+#imagen-equipo:hover{
+    box-shadow: 0px 0px 5px 5px rgb(237,192,127);
+    -webkit-box-shadow: 0px 0px 10px 10px rgb(237,192,127);
+    }
